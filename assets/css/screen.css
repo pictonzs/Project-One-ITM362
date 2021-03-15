@@ -65,3 +65,12 @@ button:hover {
   background: #afd9ea;
   color: #dc6d40;
 }
+.hasjs #inputColor.inactive {
+  background-color: #dc6d40;
+  border-color: #afd9ea;
+  overflow: visible;
+}
+.hasjs #inputColor.active{
+  background-color: #f2f2f2;
+  border-color: #dc6d40;
+}
