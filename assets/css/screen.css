@@ -26,4 +26,8 @@ aside {
 .space {
   padding-top: 18px;
 }
+form {
+  background-color: #f2f2f2;
+  box-shadow: 6px 6px #dc6d40;
+}
 }
