@@ -30,4 +30,9 @@ form {
   background-color: #f2f2f2;
   box-shadow: 6px 6px #dc6d40;
 }
+legend {
+  font-size: 23.994px;
+  text-align: center;
+  padding-right: 8px;
+  padding-top: 4px;
 }
