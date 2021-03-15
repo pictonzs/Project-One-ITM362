@@ -47,3 +47,6 @@ li {
 li.submit {
   padding-top: 22px;
 }
+input {
+  border-color: #dc6d40;
+}
