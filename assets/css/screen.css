@@ -77,3 +77,15 @@ button:hover {
   background-color: #f2f2f2;
   border-color: #dc6d40;
 }
+
+
+@media screen and (min-width: 544px) {
+  html {
+  margin-left: 10%;
+  margin-right: 10%;
+  }
+  body {
+  display: flex;
+  flex-direction: column;
+  }
+}
