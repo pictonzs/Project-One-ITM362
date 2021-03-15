@@ -40,3 +40,6 @@ ul {
   padding-top:20px;
   text-align: center;
 }
+li {
+  padding-bottom: 16px;
+}
