@@ -3,4 +3,9 @@
 
 html {
   font-family: Zilla Slab, Georgia, "Times New Roman", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 24px;
+  background-color: #afd9ea;
+}
 }
