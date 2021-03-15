@@ -61,3 +61,7 @@ button {
   padding-left: 15px;
   padding-right: 15px;
 }
+button:hover {
+  background: #afd9ea;
+  color: #dc6d40;
+}
