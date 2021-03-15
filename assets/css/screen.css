@@ -15,4 +15,10 @@ header {
 }
 h1 {
   font-size: 42.635px;
+  padding-left:12px;
+}
+aside {
+  padding-top: 4px;
+  padding-left: 20px;
+  padding-right: 24px;
 }
