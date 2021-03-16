@@ -81,12 +81,12 @@ button:hover {
 
 @media screen and (min-width: 544px) {
   html {
-  margin-left: 10%;
-  margin-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   body {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 }
 @media screen and (min-width: 681px) {
