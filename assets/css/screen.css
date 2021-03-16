@@ -12,6 +12,7 @@ header {
   background-color: #f2f2f2;
   padding-left: 4px;
   box-shadow: 6px 6px #dc6d40;
+  padding-right: 4px;
 }
 h1 {
   font-size: 42.635px;
@@ -97,3 +98,4 @@ button:hover {
   form {
     text-align: center;
   }
+}
