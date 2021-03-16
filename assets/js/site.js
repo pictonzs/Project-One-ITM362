@@ -4,12 +4,14 @@ jQuery(function($) {
   $('html').addClass('hasjs');
 });
 
-document.getElementById("inputColor").addEventListener("click", myFunction);
+document.getElementById("name").addEventListener("click", myFunction);
 function myFunction() {
-  if (document.getElementById("inputColor").className == "inactive") {
-    document.getElementById("inputColor").className ="active";
+  if (document.getElementById("name").className == "inactive") {
+    document.getElementById("name").className ="active";
   }
   else {
-    document.getElementById("inputColor").className ="inactive";
+    document.getElementById("name").className ="inactive";
+  }
+}
   }
 }
