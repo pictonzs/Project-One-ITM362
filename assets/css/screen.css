@@ -3,50 +3,50 @@
 
 html {
   font-family: Zilla Slab, Georgia, "Times New Roman", sans-serif;
-  font-size: 18px;
-  line-height: 24px;
-  padding: 24px;
+  font-size: 1.125em; /*18/16=1.125*/
+  line-height: 1.333333333333333em; /*24/18=1.333333333333333 */
+  padding: 1.333333333333333em; /* 24 / 18 = 1.333333333333333 */
   background-color: #afd9ea;
 }
 header {
   background-color: #f2f2f2;
-  padding-left: 4px;
-  box-shadow: 6px 6px #dc6d40;
+  padding-left: 0.2222222222222222em; /* 4 / 18 = 0.2222222222222222 */
+  box-shadow: 0.3333333333333333em 0.3333333333333333em #dc6d40; /* 6/18=0.3333333333333333*/
   padding-right: 4px;
 }
 h1 {
-  font-size: 42.635px;
-  padding-left:12px;
+  font-size: 2.368611111111111em; /* 42.635 / 18 = 2.368611111111111*/
+  padding-left: 0.2814588952738361em; /* 12 / 42.635 = 0.2814588952738361 */
 }
 aside {
-  padding-top: 6px;
-  padding-left: 35px;
-  padding-right: 24px;
-  padding-bottom: 8px;
+  padding-top: 0.3333333333333333em; /* 6 /18 = 0.3333333333333333 */
+  padding-left: 1.944444444444444em; /* 35 / 18 = 1.944444444444444*/
+  padding-right: 1.333333333333333em; /* 24 / 18 = 1.333333333333333 */
+  padding-bottom: 0.4444444444444444em; /* 8 / 18 = 0.4444444444444444*/
 }
 .space {
-  padding-top: 18px;
+  padding-top: 1em; /* 18 / 18 = 1 */
 }
 form {
   background-color: #f2f2f2;
-  box-shadow: 6px 6px #dc6d40;
+  box-shadow: 0.3333333333333333em 0.3333333333333333em #dc6d40; /* 6/18=0.3333333333333333*/
 }
 h2 {
-  font-size: 23.994px;
+  font-size: 1.333em; /* 23.994 / 18 = 1.333 */
   text-align: center;
-  padding-right: 8px;
-  padding-top: 4px;
+  padding-right: 0.3334166875052096em; /* 8 / 23.994 = 0.3334166875052096 */
+  padding-top: 0.1667083437526048em; /* 4 / 23.994 = 0.1667083437526048*/
 }
 ul {
-  padding-top:20px;
-  padding-bottom: 20px;
+  padding-top: 1.111111111111111em; /* 20 / 18 = 1.111111111111111 */
+  padding-bottom: 1.111111111111111em; /* 20 / 18 = 1.111111111111111 */
   text-align: center;
 }
 li {
-  padding-bottom: 16px;
+  padding-bottom: 0.8888888888888889em; /* 16 / 18 = 0.8888888888888889 */
 }
 li.submit {
-  padding-top: 22px;
+  padding-top: 1.222222222222222em; /* 22 / 18 = 1.222222222222222 */
 }
 input {
   border-color: #dc6d40;
@@ -57,10 +57,10 @@ button {
   border-color: transparent;
   overflow: visible;
   font: inherit;
-  border-radius: 24px;
-  padding: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
+  border-radius: 1.333333333333333em; /* 24 / 18 = 1.333333333333333 */
+  padding: 0.5555555555555556em;  /* 10 / 18 = 0.5555555555555556 */
+  padding-left: 0.8333333333333333em; /* 15 / 18 = 0.8333333333333333 */
+  padding-right: 0.8333333333333333em; /* 15 / 18 = 0.8333333333333333 */
 }
 button:hover {
   background: #afd9ea;
@@ -79,7 +79,7 @@ button:hover {
   border-color: #dc6d40;
 }
 
-@media screen and (min-width: 544px) {
+@media screen and (min-width: 544px) { 
   html {
     margin-left: 10%;
     margin-right: 10%;
