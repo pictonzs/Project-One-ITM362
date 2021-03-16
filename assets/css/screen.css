@@ -69,16 +69,15 @@ button:hover {
 
 /* CSS for JavaScript */
 
-.hasjs #inputColor.inactive {
+.hasjs #name.inactive, #email.inactive, #phone.inactive {
   background-color: #dc6d40;
   border-color: #afd9ea;
   overflow: visible;
 }
-.hasjs #inputColor.active{
+.hasjs #name.active, #email.active, #phone.active{
   background-color: #f2f2f2;
   border-color: #dc6d40;
 }
-
 
 @media screen and (min-width: 544px) {
   html {
