@@ -52,7 +52,7 @@ input {
   border-color: #dc6d40;
 }
 button {
-  background:#dc6d40;
+  background:#f68709;
   color: #f2f2f2;
   border-color: transparent;
   overflow: visible;
@@ -70,7 +70,7 @@ button:hover {
 /* CSS for JavaScript */
 
 .hasjs #name.inactive, #email.inactive, #phone.inactive {
-  background-color: #dc6d40;
+  background-color:#dc6d40 ;
   border-color: #afd9ea;
   overflow: visible;
 }
